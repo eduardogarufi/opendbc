@@ -1123,6 +1123,11 @@ FW_VERSIONS = {
       b'\xf1\x872Q0907572T \xf1\x890383',
     ],
   },
+  CAR.SKODA_KODIAQ_MK2: {
+    (Ecu.fwdRadar, 0x757, None): [
+      b'\xf1\x871N3907567C \xf1\x890334',
+    ],
+  },  
   CAR.SKODA_OCTAVIA_MK3: {
     (Ecu.engine, 0x7e0, None): [
       b'\xf1\x8704C906025L \xf1\x896198',

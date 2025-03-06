@@ -477,10 +477,16 @@ class CAR(Platforms):
   )
   SKODA_KODIAQ_MK1 = VolkswagenMQBPlatformConfig(
     [VWCarDocs("Škoda Kodiaq 2017-23")],
-    VolkswagenCarSpecs(mass=1569, wheelbase=2.79),
+    VolkswagenCarSpecs(mass=1836, wheelbase=2.70),
     chassis_codes={"NS"},
     wmis={WMI.SKODA, WMI.VOLKSWAGEN_GROUP_RUS},
   )
+  SKODA_KODIAQ_MK2 = VolkswagenMEBPlatformConfig(
+    [VWCarDocs("Škoda Kodiaq 2024-25", footnotes=[Footnote.VW_MEB])],
+    VolkswagenCarSpecs(mass=2099, wheelbase=2.77),
+    chassis_codes={"NW"},
+    wmis={WMI.SKODA, WMI.VOLKSWAGEN_GROUP_RUS},
+  )    
   SKODA_OCTAVIA_MK3 = VolkswagenMQBPlatformConfig(
     [
       VWCarDocs("Škoda Octavia 2015-19"),
